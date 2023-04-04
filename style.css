@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.505)), url('imagemfundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto{
+    width: 90vh;
+    text-align: justify;
+}
+.texto .titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+.texto .paragrafo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
