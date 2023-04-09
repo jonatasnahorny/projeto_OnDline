@@ -14,6 +14,29 @@
     justify-content: center;
     text-align: center;
 }
+h1 .links{
+    position: fixed;
+    padding: 10px 20px;
+    top: 50%;
+    width: 100%;
+}
+button{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #ffffff;
+    color: rgb(46, 89, 158);
+    text-decoration: none;
+}
 .texto{
     width: 90vh;
     text-align: justify;
