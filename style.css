@@ -14,40 +14,46 @@
     justify-content: center;
     text-align: center;
 }
-h1 .links{
-    position: fixed;
-    padding: 10px 20px;
-    top: 50%;
-    width: 100%;
+h1{
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-button{
-    text-decoration: none;
+h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* arrumar botão!!!!! */
+a{
+    color:#fff;
     padding: 10px 25px;
     font-size: 16px;
     border-radius: 8px;
     background-color: transparent;
     border: 1px solid whitesmoke;
-    top: 50%;
-    width: 100%;
     text-align: center;
+    text-decoration: none;
     transition-duration: 0.4s;
 }
-button:hover {
+a:hover {
     background-color: #ffffff;
-    color: rgb(46, 89, 158);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .texto{
-    width: 90vh;
     text-align: justify;
+    width: 100vh;
 }
-.texto .titulo{
-    color: #fff;
-    font-size: 60px;
-    font-weight: 600;
-}
-.texto .paragrafo{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
+.botaopg1{
+    position:absolute;
+    right: 50%;
+    bottom: 10%;
 }
