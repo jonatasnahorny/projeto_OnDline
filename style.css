@@ -5,7 +5,7 @@
 }
 .banner{
     height: 100vh;
-    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.505)), url('imagemfundo.jpg');
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.877)), url('imagemfundo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,30 +15,37 @@
     text-align: center;
 }
 h1{
-    color: #fff;
+    color: #eeac94;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 h2{
-    color: #fff;
+    color: #eeac94;
     font-size: 60px;
     font-weight: 600;
 }
 p{
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #fff;
-    font-size: 20px;
+    color: #eeac94;
+    font-size: 21px;
     font-weight: 400;
 }
-/* arrumar botão!!!!! */
+/* ARRUMAR POSIÇÃO BOTÃO!! */
+.botoespg1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+
+}
 a{
     color:#fff;
     padding: 10px 25px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 8px;
     background-color: transparent;
-    border: 1px solid whitesmoke;
+    border: 1.5px solid whitesmoke;
     text-align: center;
     text-decoration: none;
     transition-duration: 0.4s;
@@ -51,9 +58,4 @@ a:hover {
 .texto{
     text-align: justify;
     width: 100vh;
-}
-.botaopg1{
-    position:absolute;
-    right: 50%;
-    bottom: 10%;
 }
