@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <title>formulário</title>
 </head>
 <body>
@@ -14,36 +14,55 @@
             <br>
 
             <div class="inputbox">
-                <label for="#">...</label>
-                <input type="text" name="#" id="#" required>
+                <label for="#nome">Nome Completo</label>
+                <input type="text" name="nome" id="nome" required>
             </div>
+            <br>
             <div class="inputbox">
-                <label for="#">...</label>
-                <input type="text" name="#" id="#" required>
+                <label for="#">Cidade</label>
+                <input type="text" name="cidade" id="cidade" required>
             </div>
+            <br>
             <div class="inputbox">
-                <label for="#">...</label>
-                <input type="text" name="#" id="#" required>
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" required>
             </div>
+            <br>
             <div class="inputbox">
-                <label for="#">...</label>
-                <input type="text" name="#" id="#" required>
+                <label for="telefone">Telefone</label>
+                <input placeholder="(XX)XXXXX-XXXX" type="text" name="telefone" id="telefone" required>
             </div>
-
-             <input type="date" name="" id="">
-             
+            <br>
+            <div class="boxdata">
+            <h3>Data de Nascimento</h3>
+             <input type="date" name="" id="datanasc">
+             </div>
+             <br>
+             <h3>Selecione o nivel</h3>
+             <br>
              <select>
-                <option value="">#</option>
-                <option value="">#</option>
-                <option value="">#</option>
+                <option value="junior">Junior</option>
+                <option value="pleno">Pleno</option>
+                <option value="senio">Senior</option>
              </select>
+             <br><br>
 
-             <input type="radio" name="" id="">
-             <input type="radio" name="" id="">
+             <div class="boxsexo">
+             <h3>Sexo:</h3>
+             <input type="radio" id="feminino" name="genero" value="feminino" required>
+             <label for="feminino">Feminino</label><br>
+             <input type="radio" id="masculino" name="genero" value="masculino" required>
+             <label for="masculino">Masculino</label>
+             </div>
+             <br>
 
-             <input type="checkbox" name="" id="">
-
-              <button type="submit"></button>
+             <div class="boxcheck">
+             <input type="checkbox" name="aceito" id="aceito">
+             <label for="aceito">Quero receber alertas de vagas no meu Email</label>
+             </div>
+             <br>
+             
+              <button type="submit">Enviar</button>
         </fieldset>
         
     </form>

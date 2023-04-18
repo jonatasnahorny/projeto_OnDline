@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.85)), url('imagemfundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+fieldset{
+    width: 500px;
+    height: 650px;
+    border-radius: 8px;
+    border: 2px solid #34675C;
+}
+.inputbox{
+    display: flex;
+    color: #34675C;
+    font-size: 21px;
+    font-weight: 400;
+}
+.boxsexo{
+    color: #34675C;
+    font-size: 21px;
+    font-weight: 400;
+}
+.boxcheck{
+    color: #34675C;
+    font-size: 21px;
+    font-weight: 400;
+}
+h3{
+
+    color: #34675C;
+    font-size: 21px;
+    font-weight: 400;
+}
