@@ -16,29 +16,74 @@ body{
 }
 fieldset{
     width: 500px;
-    height: 650px;
+    height: 600px;
     border-radius: 8px;
     border: 2px solid #34675C;
 }
 .inputbox{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #34675C;
     font-size: 21px;
     font-weight: 400;
 }
 .boxsexo{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
     color: #34675C;
     font-size: 21px;
     font-weight: 400;
 }
+.boxdata{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+select:required:invalid{
+    color: rgb(185, 176, 176);
+}
+option[value=""][disabled] {
+    display: none;
+}
+option{
+    color: black;
+}
+.boxnivel{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .boxcheck{
+    padding-bottom: 5%;
     color: #34675C;
     font-size: 21px;
     font-weight: 400;
 }
 h3{
-
     color: #34675C;
     font-size: 21px;
     font-weight: 400;
+}
+button{
+    width: 25%;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+button:hover{
+    background-color: #34675C;
 }
